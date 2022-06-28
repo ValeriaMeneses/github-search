@@ -1,0 +1,26 @@
+.CardItemUser--container {
+    border: 1px solid #9980E9;
+    background-color: #9880e92e;
+    -webkit-box-shadow: 5px 7px 15px -4px rgba(73,68,84,1);
+    -moz-box-shadow: 5px 7px 15px -4px rgba(73,68,84,1);
+    box-shadow: 5px 7px 15px -4px rgba(73,68,84,1);
+    width: 100%;
+
+    @media (min-width: 768px) { 
+        width: 48%;
+    }
+
+}
+
+.CardItemUser--img {
+    img {
+        height: auto;
+        width: 100px;
+    }
+}
+
+.CardItemUser--body {
+    svg {
+        margin-bottom: -2px;
+    }
+}

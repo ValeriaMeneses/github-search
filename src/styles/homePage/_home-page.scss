@@ -1,0 +1,45 @@
+.HomePage--cotainer {
+    margin-top: 2rem;
+}
+.HomePage--btn {
+    background-color: transparent;
+    border-radius: 10.3rem;
+    border: 1px solid #9980E9;
+    color: #9980E9;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 15px;
+    width: 230px;
+    z-index: 2;
+
+    .no-touch &:active:not(.is-disabled),
+    .no-touch &:hover:not(.is-disabled) {
+        background-color: #4134A3;
+        border: 1px solid #4134A3;
+        color: white;
+    }
+
+    &:hover {
+        background-color: #9980E9;
+        border-color: #9980E9;
+        color: #fff;
+    }
+}
+
+.HomePage--title {
+    color: #FBF8FF;
+    letter-spacing: 0.093em;
+    margin-bottom: 3%;
+    text-shadow: 2px 3px 0px #898999;
+}
+
+.HomePage--img {
+    img {
+        width: 100%;
+
+        @media (min-width: 992px) {
+            position: fixed;
+            top: 280px;
+        }
+    }
+}

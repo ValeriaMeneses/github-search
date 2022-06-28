@@ -1,0 +1,18 @@
+.ErrorComponent--img {
+    img {
+        max-height: 300px;
+    }
+}
+
+.ErrorComponent--body {
+    h3 {
+        color: #f7eaf5;
+        letter-spacing: 0.093em;
+        margin-bottom: 3%;
+        text-shadow: 2px 3px 0px #898999;
+    }
+
+    p {
+        color: #494454;
+    }
+}
