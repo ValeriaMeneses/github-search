@@ -1,11 +1,14 @@
 import { NavLink } from 'react-router-dom';
+import AstroMona from '../assets/astro-mona.webp';
+import AstroMonaFooter from '../assets/footer-illustration.webp';
+import GitHubLogo from '../assets/github-mark-32px.png';
 
 export const HomePage = () => {
     return (
         <div className="h-100 w-100 position-absolute">
             <nav className="navbar navbar-light justify-content-center">
                 <a className="navbar-brand" href="#">
-                    <img src="src/assets/github-mark-32px.png" width="30" height="30" className="d-inline-block align-top mr-2" alt="Github"/>
+                    <img src={ GitHubLogo } width="30" height="30" className="d-inline-block align-top mr-2" alt="Github"/>
                     GitHubSearch
                 </a>
             </nav>
@@ -26,8 +29,8 @@ export const HomePage = () => {
                 </NavLink>
             </div>
             <div className="HomePage--img">
-                <img src="src/assets/astro-mona.webp" alt="astro mona" className="d-md-none" />
-                <img src="src/assets/footer-illustration.webp" width="100%" className="d-none d-md-block"/>
+                <img src={ AstroMona } alt="astro mona" className="d-md-none" />
+                <img src={ AstroMonaFooter }  alt="GitHub image" width="100%" className="d-none d-md-block"/>
             </div>
         </div>
     )

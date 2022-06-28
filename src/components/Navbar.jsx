@@ -1,11 +1,12 @@
 import { Link, NavLink } from 'react-router-dom';
+import GithubImage from '../assets/github-mark-32px.png';
 
 export const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <Link className="navbar-brand" to="/">
-                    <img src="src/assets/github-mark-32px.png" width="30" height="30" className="d-inline-block align-top mr-2" alt="Github"/>
+                    <img src={ GithubImage } width="30" height="30" className="d-inline-block align-top mr-2" alt="Github"/>
                     GitHubSearch
                 </Link>
                 <a 

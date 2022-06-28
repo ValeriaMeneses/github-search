@@ -1,9 +1,11 @@
+import Octocat from '../../assets/octocat.png';
+
 export const ErrorComponent = ({ error }) => {
 
     return (
         <div className="ErrorComponent--container mt-5 pt-5">
             <div className="ErrorComponent--img text-center">
-                <img src="src/assets/octocat.png" alt="octocat" />
+                <img src={ Octocat } alt="octocat" />
             </div>
             <div className="ErrorComponent--body">
                 <h3 className="text-center">Ooooooops!!!</h3>
